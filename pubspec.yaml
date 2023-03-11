@@ -58,7 +58,15 @@ flutter_native_splash:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
-
+# flutter_native_splash-development.yaml
+flutter_native_splash:
+  color: "#7F6F11"
+  image: assets/images/sp.png
+  color_dark: "#272727"
+  image_dark: assets/images/sp.png
+  android: true
+  ios: true
+  web: true
 # The following section is specific to Flutter packages.
 flutter:
 

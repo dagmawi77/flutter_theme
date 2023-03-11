@@ -34,9 +34,9 @@ class AppHome extends StatelessWidget {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
-          child: Icon(Icons.add_shopping_cart),
+          child: const Icon(Icons.add_shopping_cart),
         ),
-        body: Center(
+        body: const Center(
           child: Text("Home Page"),
         ));
   }
